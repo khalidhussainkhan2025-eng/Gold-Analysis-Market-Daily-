@@ -17,37 +17,40 @@ body{
   border:2px solid gold;
   border-radius:25px;
   padding:30px 18px 25px 18px;
-  margin-top:15px;
-  background:linear-gradient(180deg,#111,#000);
+  background:linear-gradient(180deg,#141414,#000);
   box-shadow:0 0 25px #00ff88, 0 0 40px gold;
 }
 .profile{
-  width:95px;
-  height:95px;
+  width:110px;
+  height:110px;
   border-radius:50%;
-  background:radial-gradient(circle, #222, #000);
+  background:radial-gradient(circle,#222,#000);
   border:3px solid gold;
-  box-shadow:0 0 20px gold, 0 0 20px #00ff88;
+  box-shadow:0 0 22px gold, 0 0 22px #00ff88;
   display:flex;
   align-items:center;
   justify-content:center;
-  font-size:55px;
+  font-size:60px;
   color:gold;
   font-weight:bold;
-  margin:0 auto 10px auto;
+  margin:0 auto 12px auto;
 }
 h1{
   color:gold;
   font-size:42px;
   letter-spacing:4px;
-  margin:10px 0 5px 0;
-  text-shadow:0 0 15px gold;
+  margin:5px 0;
 }
-p{
+.profile-text{
+  background:#111;
+  border:1px solid #333;
+  border-radius:15px;
+  padding:12px;
+  margin:15px 8px;
   font-size:16px;
-  color:#eee;
-  line-height:22px;
+  line-height:23px;
 }
+.profile-text b{color:#00ff88;}
 .btn{
   display:block;
   margin:14px 8px;
@@ -58,14 +61,8 @@ p{
   text-decoration:none;
   color:#000;
 }
-.gold{background:linear-gradient(90deg,#ffd700,#ffcc00); box-shadow:0 0 18px gold;}
-.green{background:linear-gradient(90deg,#00ff88,#00cc6a); box-shadow:0 0 18px #00ff88;}
-.small{
-  font-size:13px;
-  color:#aaa;
-  margin-top:15px;
-}
-.small b{color:#fff;}
+.gold{background:gold; box-shadow:0 0 18px gold;}
+.green{background:#00ff88; box-shadow:0 0 18px #00ff88;}
 </style>
 </head>
 <body>
@@ -73,10 +70,21 @@ p{
 <div class="box">
   <div class="profile">W</div>
   <h1>WELCOME</h1>
-  <p>Learn More About Us - Join Our Community</p>
 
-  <!-- LEARN MORE - Bot wala button, Click par Channel me jayega -->
+  <!-- PROFILE TEXT -->
+  <div class="profile-text">
+    Learn More About Us - Join Our Community<br>
+    <b>Daily 4-6 Free Community Updates</b><br>
+    Gold | BTC | Forex
+  </div>
+
+  <!-- BUTTON 1 -->
   <a class="btn gold" href="https://t.me/+Ik253Ivd7r01N2Vk">LEARN MORE</a>
 
-  <!-- JOIN FREE SIGNAL - Channel -->
-  <a class="btn green" href="https://t.me/+Ik253Ivd7r01N2
+  <!-- BUTTON 2 -->
+  <a class="btn green" href="https://t.me/+Ik253Ivd7r01N2Vk">JOIN FREE SIGNAL</a>
+
+</div>
+
+</body>
+</html>
